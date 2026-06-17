@@ -34,12 +34,12 @@ This repository contains a collection of fundamental scripts and algorithmic exe
 
 An installation of Python 3.x is required to execute these scripts. You can download the environment from the official Python website.
 
-### Setup Instructions
+##### Setup Instructions
 
 1. Clone the repository to your local directory:
 
    ```bash
-   git clone https://github.com
+   git clone https://github.com/amritxcode/python-basics.git
    ```
 
 2. Navigate into the repository directory:
