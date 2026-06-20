@@ -9,7 +9,7 @@ def view_students():
 def search_student():
     search = input("Enter a name to search: ").lower()
     if search in students:
-        print(f"Found at No.{students.index(search)}")
+        print(f"Found at No.{students.index(search) + 1}")
     else:
         print("Not Found")
 
