@@ -1,4 +1,4 @@
-def largest_number(nums):
+def secondlargest_number(nums):
     largest = nums[0]
     sec_largest= float('-inf')
     for num in nums:
@@ -10,4 +10,4 @@ def largest_number(nums):
 
     return sec_largest 
 
-print(largest_number([3, 9, 2, 15, 7]))
+print(secondlargest_number([3, 9, 2, 15, 7]))
