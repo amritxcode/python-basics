@@ -41,3 +41,12 @@ def add_student():
     #adding student dict to the list
     students.append(student_dict)
     print("Student added successfully!")
+
+
+def search_student():
+    search_id = int(input("Enter student id: "))
+    for student in students:
+        if search_id == student["id"]:
+            print(f"ID: {student["id"]}, Name: {student["name"]}, Age: {student["age"]}, CGPA: {student["cgpa"]}")
+            return
+    print("Student not found")
