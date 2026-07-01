@@ -2,7 +2,7 @@ def find_max(*numbers):
     if not numbers:
         return None
     
-    largest = float('-inf')
+    largest = numbers[0]
     for num in numbers:
         if num > largest:
             largest = num
