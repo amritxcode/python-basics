@@ -10,4 +10,4 @@ def secondlargest_number(nums):
 
     return sec_largest 
 
-print(secondlargest_number([3, 9, 2, 15, 7]))
+print(secondlargest_number([10,10,5]))
