@@ -27,4 +27,4 @@ elif decision == "s":
              print("Cannot divide by zero")
 
     else:
-        print("Invalid operation")a
+        print("Invalid operation")
